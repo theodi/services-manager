@@ -1,12 +1,10 @@
-# Open Organisation Services
+# Services Manager
 
-[![Build Status](http://jenkins.theodi.org/job/open-orgn-services-build-master/badge/icon)](http://jenkins.theodi.org/job/open-orgn-services-build-master/)
-[![Dependency Status](https://gemnasium.com/theodi/open-orgn-services.png)](https://gemnasium.com/theodi/open-orgn-services)
-[![Code Climate](https://codeclimate.com/github/theodi/open-orgn-services.png)](https://codeclimate.com/github/theodi/open-orgn-services)
+[![Build Status](http://jenkins.theodi.org/job/services-manager-build-master/badge/icon)](http://jenkins.theodi.org/job/services-manager-build-master/)
+[![Dependency Status](https://gemnasium.com/theodi/services-manager.png)](https://gemnasium.com/theodi/services-manager)
+[![Code Climate](https://codeclimate.com/github/theodi/services-manager.png)](https://codeclimate.com/github/theodi/services-manager)
 
-This repository is for code for services that support the ODI's operation as an open organisation. Our aim is to publish open data as a mechanism to help us function more effectively, and to act as a demonstrator of both the technical and policy challenges.
-
-[Feature documentation](https://relishapp.com/theodi/open-orgn-services/docs) can be found on Relish.
+This repository a runner for the code in [open-orgn-services](https://github.com/theodi/open-orgn-services)
 
 Setup
 -----
@@ -66,15 +64,3 @@ License
 
 This code is open source under the MIT license. See the LICENSE.md file for 
 full details.
-
-Architecture
-------------
-
-This repository consists of a whole bunch of glue scripts which connect various other systems. They should all have the following features:
-
-* Implemented as [resque jobs](https://github.com/defunkt/resque#section_Jobs).
-* Minimal; each job should be as small as possible, spawing other jobs rather than executing big bits of code.
-* Idempotent; they should be able to run many times with the same arguments and not cause problems.
-* Testable; minimal jobs are very easy to test. This is generally done with cucumber features.
-
-We use [VCR](https://github.com/vcr/vcr) to mock away any HTTP requests during tests.
