@@ -6,7 +6,7 @@ gem 'dotenv'
 gem 'xeroizer', :git => 'https://github.com/theodi/xeroizer.git'
 
 # Include ALL THE CODE
-gem 'open-orgn-services', :git =>  'https://github.com/theodi/open-orgn-services.git', :branch => "feature-141-gemification"
+gem 'open-orgn-services', :git =>  'https://github.com/theodi/open-orgn-services.git'
 
 # Queue runner code
 gem 'resque-scheduler', :require => 'resque_scheduler'
