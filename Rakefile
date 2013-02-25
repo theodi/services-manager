@@ -1,6 +1,6 @@
-$:.unshift File.join( File.dirname(__FILE__), "lib")
+require 'dotenv'
+Dotenv.load
 
-require 'rubygems'
 require 'resque/tasks'
 require 'resque_scheduler/tasks'
 

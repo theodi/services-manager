@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'dotenv'
+
 # Manually specify the xeroizer dependency so we use our own version
 gem 'xeroizer', :git => 'https://github.com/theodi/xeroizer.git'
 
