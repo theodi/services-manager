@@ -30,6 +30,6 @@ hubot:
   
 eventbrite:
   every: 1h
-  class: EventLister
+  class: EventMonitor
   args:
   description: "Interrogate all events in Eventbrite"
