@@ -4,12 +4,36 @@ dashboard_time:
   args:
   description: "Updates the time on the dashboard every 1 minute"
   
-github:
-  every: 1h
-  class: GithubMonitor
+github_issues:
+  every: 5m
+  class: Github::IssueMonitor
   args:
-  description: "Pulls information from Github"
+  description: "Pulls issue count from Github"
   
+github_organisation:
+  every: 1h
+  class: Github::OrganisationMonitor
+  args:
+  description: "Pulls repository count from Github"
+
+github_watchers:
+  every: 2h
+  class: Github::WatchersForksMonitor
+  args:
+  description: "Pulls watcher/fork count from Github"
+
+github_prs:
+  every: 10m
+  class: Github::PullRequestMonitor
+  args:
+  description: "Pulls pull request counts from Github"
+
+github_outgoing_prs:
+  every: 1h
+  class: Github::OutgoingPullRequestMonitor
+  args:
+  description: "Pulls outgoing pull request count from Github"
+
 trello:
   every: 5m
   class: TrelloMonitor
