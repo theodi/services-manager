@@ -11,7 +11,17 @@ namespace :resque do
     require 'resque/scheduler'
     require 'open-orgn-services'
     require 'resque/failure/redis'
-    Resque::Failure.backend = Resque::Failure::Redis
+    require 'resque/failure/airbrake'
+    # Set up failure notifications
+    if ENV['AIRBRAKE_SERVICES_KEY']
+      Resque::Failure::Multiple.classes = [Resque::Failure::Redis, Resque::Failure::Airbrake]
+      Resque::Failure.backend = Resque::Failure::Multiple
+      Airbrake.configure do |config|
+        config.api_key = ENV['AIRBRAKE_SERVICES_KEY']
+      end
+    else
+      Resque::Failure.backend = Resque::Failure::Redis
+    end
     # Load schedule
     Resque.schedule = YAML.load_file('config/schedule.yml')
   end
