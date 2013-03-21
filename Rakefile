@@ -13,11 +13,11 @@ namespace :resque do
     require 'resque/failure/redis'
     require 'resque/failure/airbrake'
     # Set up failure notifications
-    if ENV['AIRBRAKE_API_KEY']
+    if ENV['AIRBRAKE_SERVICES_KEY']
       Resque::Failure::Multiple.classes = [Resque::Failure::Redis, Resque::Failure::Airbrake]
       Resque::Failure.backend = Resque::Failure::Multiple
       Airbrake.configure do |config|
-        config.api_key = ENV['AIRBRAKE_API_KEY']
+        config.api_key = ENV['AIRBRAKE_SERVICES_KEY']
       end
     else
       Resque::Failure.backend = Resque::Failure::Redis
