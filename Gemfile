@@ -13,3 +13,5 @@ gem 'open-orgn-services', :git =>  'https://github.com/theodi/open-orgn-services
 gem 'resque-scheduler', :require => 'resque_scheduler'
 gem 'thin'
 gem 'foreman'
+
+gem 'airbrake'
