@@ -57,3 +57,9 @@ eventbrite:
   class: EventMonitor
   args:
   description: "Interrogate all events in Eventbrite"
+
+capsulesync:
+  every: 1h
+  class: CapsuleSyncMonitor
+  args:
+  description: "Sync data back to member directory from CapsuleCRM"
