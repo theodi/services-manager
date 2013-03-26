@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: 79dfac0e159923936e882e7711f336412981de29
+  revision: 03e9de50d724d789f65b8bc8efb15c8c8f8ac0c4
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -20,6 +20,7 @@ GIT
       leftronicapi (~> 1.2, >= 1.2.0)
       rake (~> 10.0, >= 10.0.3)
       resque (~> 1.23, >= 1.23.0)
+      resque-scheduler (~> 2.0, >= 2.0.0)
       ruby-trello (~> 0.5, >= 0.5.1)
       xeroizer (~> 2.15, >= 2.15.3)
 
