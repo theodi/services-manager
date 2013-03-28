@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#ruby=ruby-1.9.3-p374
+#ruby-gemset=services-manager
+
 gem 'dotenv'
 
 # Manually specify some dependencies so we use our own versions

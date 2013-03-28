@@ -4,6 +4,8 @@ Dotenv.load
 require 'resque/tasks'
 require 'resque_scheduler/tasks'
 
+task :default => 'resque:setup'
+
 namespace :resque do
   task :setup do
     require 'resque'
