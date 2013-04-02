@@ -14,6 +14,7 @@ namespace :resque do
     require 'open-orgn-services'
     require 'resque/failure/redis'
     require 'resque/failure/airbrake'
+    require 'resque/failure/multiple'
     # Set up failure notifications
     if ENV['AIRBRAKE_SERVICES_KEY']
       Resque::Failure::Multiple.classes = [Resque::Failure::Redis, Resque::Failure::Airbrake]
