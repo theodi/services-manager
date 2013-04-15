@@ -9,4 +9,4 @@ require 'resque_scheduler/server'
 
 require 'open-orgn-services'
 
-Resque.schedule = YAML.load_file(File.join('config', 'schedule.yml'))
+Resque::Scheduler.dynamic = true
