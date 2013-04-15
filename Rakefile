@@ -26,6 +26,7 @@ namespace :resque do
       Resque::Failure.backend = Resque::Failure::Redis
     end
     # Load schedule
+    Resque::Scheduler.dynamic = true
     Resque.schedule = YAML.load_file('config/schedule.yml')
   end
 end
