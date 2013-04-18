@@ -63,3 +63,10 @@ capsulesync:
   class: CapsuleSyncMonitor
   args:
   description: "Sync data back to member directory from CapsuleCRM"
+  
+import_resources:
+  every: 1h
+  class: ImportResources
+  args:
+  description: "Imports and updates resources from Google Calendar"
+  queue: office_calendar
