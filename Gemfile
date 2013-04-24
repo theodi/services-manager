@@ -18,3 +18,4 @@ gem 'thin'
 gem 'foreman'
 
 gem 'airbrake'
+gem 'fog'
