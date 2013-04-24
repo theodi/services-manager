@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: 0c9bedca8e581a067bb158752d7aba07410eb584
+  revision: 3d53eb984b227be6ec363959e987850755037c20
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -44,7 +44,7 @@ GEM
     activesupport (3.2.13)
       i18n (= 0.6.1)
       multi_json (~> 1.0)
-    addressable (2.3.3)
+    addressable (2.3.4)
     airbrake (3.1.11)
       activesupport
       builder
@@ -59,7 +59,8 @@ GEM
     eventmachine (1.0.3)
     faraday (0.8.7)
       multipart-post (~> 1.1)
-    foreman (0.62.0)
+    foreman (0.63.0)
+      dotenv (>= 0.7)
       thor (>= 0.13.6)
     github_api (0.9.7)
       faraday (~> 0.8.1)
@@ -67,7 +68,7 @@ GEM
       multi_json (~> 1.4)
       nokogiri (~> 1.5.2)
       oauth2
-    hashie (2.0.3)
+    hashie (2.0.4)
     httparty (0.8.3)
       multi_json (~> 1.0)
       multi_xml
@@ -88,10 +89,12 @@ GEM
     libxml-ruby (2.2.2)
     mechanize (2.0.1)
       net-http-digest_auth (~> 1.1, >= 1.1.1)
+      net-http-digest_auth (~> 1.1, >= 1.1.1)
       net-http-persistent (~> 1.8)
       nokogiri (~> 1.4)
       webrobots (~> 0.0, >= 0.0.9)
-    mime-types (1.22)
+      webrobots (~> 0.0, >= 0.0.9)
+    mime-types (1.23)
     mono_logger (1.0.1)
     multi_json (1.7.2)
     multi_xml (0.5.3)
@@ -111,7 +114,7 @@ GEM
     rack-protection (1.5.0)
       rack
     rake (10.0.4)
-    redis (3.0.3)
+    redis (3.0.4)
     redis-namespace (1.2.1)
       redis (~> 3.0.0)
     resque (1.24.1)
