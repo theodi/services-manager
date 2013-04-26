@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: 3d53eb984b227be6ec363959e987850755037c20
+  revision: 15636df9368460fde8743385e925da93c2d9df25
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -101,10 +101,8 @@ GEM
     libxml-ruby (2.2.2)
     mechanize (2.0.1)
       net-http-digest_auth (~> 1.1, >= 1.1.1)
-      net-http-digest_auth (~> 1.1, >= 1.1.1)
       net-http-persistent (~> 1.8)
       nokogiri (~> 1.4)
-      webrobots (~> 0.0, >= 0.0.9)
       webrobots (~> 0.0, >= 0.0.9)
     mime-types (1.23)
     mono_logger (1.0.1)
