@@ -10,3 +10,10 @@ require 'resque_scheduler/server'
 require 'open-orgn-services'
 
 Resque::Scheduler.dynamic = true
+
+
+if ENV["SERVICES_MANAGER_USERNAME"] && ENV["SERVICES_MANAGER_PASSWORD"]
+  Resque::Server.use(Rack::Auth::Basic) do |user, password|
+    user == ENV["SERVICES_MANAGER_USERNAME"] && password == ENV["SERVICES_MANAGER_PASSWORD"]
+  end
+end
