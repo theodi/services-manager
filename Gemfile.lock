@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: 6cc9436a1a8264640b19ebe54c79305a3471d3de
+  revision: 7ffaf83b037a56d2f88b3332f057359517e8fcce
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -107,7 +107,7 @@ GEM
       webrobots (~> 0.0, >= 0.0.9)
     mime-types (1.23)
     mono_logger (1.1.0)
-    multi_json (1.7.3)
+    multi_json (1.7.4)
     multi_xml (0.5.3)
     multipart-post (1.2.0)
     net-http-digest_auth (1.3)
