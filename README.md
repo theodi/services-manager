@@ -1,6 +1,6 @@
 # Services Manager
 
-[![Build Status](http://jenkins.theodi.org/job/services-manager-build-master/badge/icon)](http://jenkins.theodi.org/job/services-manager-build-master/)
+[![Build Status](http://jenkins.theodi.org/job/services-manager-master/badge/icon)](http://jenkins.theodi.org/job/services-manager-master/)
 [![Dependency Status](https://gemnasium.com/theodi/services-manager.png)](https://gemnasium.com/theodi/services-manager)
 [![Code Climate](https://codeclimate.com/github/theodi/services-manager.png)](https://codeclimate.com/github/theodi/services-manager)
 
