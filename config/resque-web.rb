@@ -6,6 +6,7 @@ require 'resque'
 # Include resque scheduler stuff for web interface
 require 'resque_scheduler'
 require 'resque_scheduler/server'
+require 'resque-history/server'
 
 require 'open-orgn-services'
 
