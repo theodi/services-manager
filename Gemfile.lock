@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: dd90b856409840d28a86c41200a5cbc2eaf09374
+  revision: 300f978f18635afa4787c0ed2787b4eaf99b714e
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -154,7 +154,7 @@ GEM
       json
       oauth (~> 0.4.5)
       rest-client (~> 1.6.7)
-    rufus-scheduler (2.0.19)
+    rufus-scheduler (2.0.22)
       tzinfo (>= 0.3.23)
     sinatra (1.4.3)
       rack (~> 1.4)
