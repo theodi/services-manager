@@ -12,10 +12,33 @@ namespace :resque do
     require 'resque_scheduler'
     require 'resque/scheduler'
     require 'open-orgn-services'
+    
+    # Enable job history for some classes
+    require 'resque-history'
+    [
+        CapsuleSyncMonitor,
+        SendDirectoryEntryToCapsule,
+        PartnerEnquiryProcessor,
+        SaveMembershipDetailsToCapsule,
+        SaveMembershipIdInCapsule,
+        SendSignupToCapsule,
+        SyncCapsuleData,
+        EventMonitor,
+        AttendeeMonitor,
+        EventSummaryGenerator,
+        EventSummaryUploader,
+        SignupProcessor,
+        Invoicer
+    ].each do |klazz|
+      klazz.class_eval do
+        extend Resque::Plugins::History
+      end
+    end
+    
+    # Set up failure notifications
     require 'resque/failure/redis'
     require 'resque/failure/airbrake'
-    require 'resque/failure/multiple'
-    # Set up failure notifications
+    require 'resque/failure/multiple'    
     if ENV['AIRBRAKE_SERVICES_KEY']
       Resque::Failure::Multiple.classes = [Resque::Failure::Redis, Resque::Failure::Airbrake]
       Resque::Failure.backend = Resque::Failure::Multiple
@@ -25,6 +48,7 @@ namespace :resque do
     else
       Resque::Failure.backend = Resque::Failure::Redis
     end
+
     # Load schedule
     Resque::Scheduler.dynamic = true
     Resque.schedule = YAML.load_file('config/schedule.yml')
