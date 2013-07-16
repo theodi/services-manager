@@ -14,6 +14,7 @@ gem 'open-orgn-services', :git =>  'https://github.com/theodi/open-orgn-services
 
 # Queue runner code
 gem 'resque-scheduler', :require => 'resque_scheduler'
+gem 'resque-history'
 gem 'thin'
 gem 'foreman'
 
