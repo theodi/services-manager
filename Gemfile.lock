@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: 62769ee933233684bb538daa140022625b475113
+  revision: 919bc87d4db13365d66d588fd5c5f526580bf823
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -60,8 +60,8 @@ GEM
       tzinfo (~> 0.3.22)
     eventmachine (1.0.3)
     excon (0.25.3)
-    faraday (0.8.7)
-      multipart-post (~> 1.1)
+    faraday (0.8.8)
+      multipart-post (~> 1.2.0)
     fog (1.14.0)
       builder
       excon (~> 0.25.0)
@@ -154,7 +154,7 @@ GEM
       json
       oauth (~> 0.4.5)
       rest-client (~> 1.6.7)
-    rufus-scheduler (2.0.22)
+    rufus-scheduler (2.0.23)
       tzinfo (>= 0.3.23)
     sinatra (1.4.3)
       rack (~> 1.4)
