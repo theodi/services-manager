@@ -25,8 +25,6 @@ namespace :resque do
         SyncCapsuleData,
         EventMonitor,
         AttendeeMonitor,
-        EventSummaryGenerator,
-        EventSummaryUploader,
         SignupProcessor,
         Invoicer
     ].each do |klazz|
