@@ -13,6 +13,7 @@ gem 'capsulecrm', :git => 'https://github.com/theodi/capsulecrm.git'
 gem 'open-orgn-services', :git =>  'https://github.com/theodi/open-orgn-services.git'
 
 # Queue runner code
+gem 'rufus-scheduler', '< 3.0.0'
 gem 'resque-scheduler', :require => 'resque_scheduler'
 gem 'resque-history'
 gem 'thin'
