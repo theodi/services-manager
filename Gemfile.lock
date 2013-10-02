@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: 8a4fe6fd7c80b464e8caa6b4c1d6b56e16eee1dc
+  revision: f5311e76850855d3644935afcd27949722934652
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -24,6 +24,7 @@ GIT
       resque (~> 1.23, >= 1.23.0)
       resque-scheduler (~> 2.0, >= 2.0.0)
       ruby-trello (~> 0.5, >= 0.5.1)
+      rufus-scheduler (< 3.0.0)
       xeroizer (~> 2.15, >= 2.15.3)
 
 GIT
@@ -183,5 +184,6 @@ DEPENDENCIES
   open-orgn-services!
   resque-history
   resque-scheduler
+  rufus-scheduler (< 3.0.0)
   thin
   xeroizer!
