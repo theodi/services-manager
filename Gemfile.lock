@@ -139,7 +139,7 @@ GEM
       redis-namespace (~> 1.2)
       sinatra (>= 0.9.2)
       vegas (~> 0.1.2)
-    resque-history (1.11.0)
+    resque-history (1.11.1)
       resque
     resque-scheduler (2.3.0)
       redis (>= 3.0.0)
