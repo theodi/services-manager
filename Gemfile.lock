@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: 469686570b6e93ca7424107ee5a26bdc8d8bf49c
+  revision: 82164ccffba9eb96b6a149345c59a4d592e045e0
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -141,7 +141,7 @@ GEM
       vegas (~> 0.1.2)
     resque-history (1.11.1)
       resque
-    resque-scheduler (2.3.0)
+    resque-scheduler (2.3.1)
       redis (>= 3.0.0)
       resque (~> 1.25)
       rufus-scheduler (~> 2.0)
