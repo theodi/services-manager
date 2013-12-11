@@ -4,7 +4,7 @@
 [![Dependency Status](https://gemnasium.com/theodi/services-manager.png)](https://gemnasium.com/theodi/services-manager)
 [![Code Climate](https://codeclimate.com/github/theodi/services-manager.png)](https://codeclimate.com/github/theodi/services-manager)
 
-This repository a runner for the code in [open-orgn-services](https://github.com/theodi/open-orgn-services)
+This repository is a runner for the code in [open-orgn-services](https://github.com/theodi/open-orgn-services)
 
 Setup
 -----
