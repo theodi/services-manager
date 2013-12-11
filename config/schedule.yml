@@ -40,12 +40,6 @@ trello:
   args:
   description: "Pulls information from Trello"
 
-build_status:
-  every: 1m
-  class: BuildStatusMonitor
-  args:
-  description: "Check Jenkins build status"
-
 hubot:
   every: 1m
   class: HubotMonitor
@@ -70,3 +64,10 @@ import_resources:
   args:
   description: "Imports and updates resources from Google Calendar"
   queue: office_calendar
+
+membership_count:
+  every: 1d
+  class: MembershipCount
+  args:
+  description: "Count members"
+
