@@ -40,12 +40,6 @@ trello:
   args:
   description: "Pulls information from Trello"
 
-build_status:
-  every: 1m
-  class: BuildStatusMonitor
-  args:
-  description: "Check Jenkins build status"
-
 hubot:
   every: 1m
   class: HubotMonitor
