@@ -64,3 +64,10 @@ import_resources:
   args:
   description: "Imports and updates resources from Google Calendar"
   queue: office_calendar
+
+membership_count:
+  every: 1d
+  class: MembershipCount
+  args:
+  description: "Count members"
+
