@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/theodi/capsulecrm.git
-  revision: ac8548b3e659dd5f6c32455229c5c3ce8f7e40c9
+  revision: add9f3894e41a7716ce3ede533c3d06caa51b3f3
   specs:
     capsulecrm (0.0.4)
       activemodel (>= 3.0.5)
@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: 7fc1ce68fed9e85efc3582ab08231a8790f9d9ea
+  revision: 691c02353cdd79947a66b9c51406e8e08023c653
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -19,6 +19,7 @@ GIT
       github_api (~> 0.9, >= 0.9.0, <= 0.10.1)
       httparty
       leftronicapi (~> 1.2, >= 1.2.0)
+      pony (~> 1.6, >= 1.6.2)
       rake (~> 10.0, >= 10.0.3)
       resque (~> 1.23, >= 1.23.0)
       resque-scheduler (~> 2.0, >= 2.0.0)
@@ -95,6 +96,10 @@ GEM
       curb
       json
       rake
+    mail (2.2.7)
+      activesupport (>= 2.3.6)
+      mime-types
+      treetop (>= 1.4.5)
     mime-types (2.0)
     mono_logger (1.1.0)
     multi_json (1.8.2)
@@ -112,6 +117,9 @@ GEM
       multi_json (~> 1.0)
       multi_xml (~> 0.5)
       rack (~> 1.2)
+    polyglot (0.3.3)
+    pony (1.6.2)
+      mail (>= 2.0)
     rack (1.5.2)
     rack-protection (1.5.1)
       rack
@@ -152,6 +160,9 @@ GEM
       rack (>= 1.0.0)
     thor (0.18.1)
     tilt (1.4.1)
+    treetop (1.4.15)
+      polyglot
+      polyglot (>= 0.3.1)
     tzinfo (0.3.38)
     vegas (0.1.11)
       rack (>= 1.0.0)
