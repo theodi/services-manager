@@ -71,3 +71,9 @@ membership_count:
   args:
   description: "Count members"
 
+opportunity_monitor:
+  every: 1d
+  class: OpportunityAgeMonitor
+  args:
+  description: "Calculate metrics for age of opportunities"
+  
