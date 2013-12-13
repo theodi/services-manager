@@ -82,3 +82,9 @@ opportunity_reminders:
   class: SendOpportunityReminders
   args:
   description: "Send emails to remind about old opportunities"
+  
+membership_renewals:
+  every: 1d
+  class: MembershipRenewals
+  args:
+  description: "Count members renewing"
