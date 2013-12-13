@@ -88,3 +88,9 @@ membership_renewals:
   class: MembershipRenewals
   args:
   description: "Count members renewing"
+  
+pipeline_metrics:
+  every: 1d
+  class: PipelineMetrics
+  args:
+  description: "Calculate pipeline stats"
