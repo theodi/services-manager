@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/theodi/capsulecrm.git
-  revision: d3f7ebac808d55c813d1210db6f51af936e6680a
+  revision: a28b6fd7384abdc972f6ce4ffbf11c2beb5bdd47
   specs:
     capsulecrm (0.0.4)
       activemodel (>= 3.0.5)
@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: ee4f29df6178d14f147110fd0a2071e5b10a862c
+  revision: 3a79748555a34e173a393dad2466c20455e25145
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
