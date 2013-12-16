@@ -94,3 +94,9 @@ pipeline_metrics:
   class: PipelineMetrics
   args:
   description: "Calculate pipeline stats"
+  
+membership_coverage:
+  every: 1d
+  class: MembershipCoverage
+  args:
+  description: "Calculate membership coverage metrics"
