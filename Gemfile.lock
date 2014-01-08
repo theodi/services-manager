@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: 3a79748555a34e173a393dad2466c20455e25145
+  revision: fefd6aaec0f73feaae2df6e3ffaf03247dcaf3c3
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -48,9 +48,9 @@ GEM
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
     addressable (2.3.5)
-    airbrake (3.1.14)
+    airbrake (3.1.15)
       builder
-      json
+      multi_json
     builder (3.0.4)
     curb (0.8.5)
     daemons (1.1.9)
