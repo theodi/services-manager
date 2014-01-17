@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: fefd6aaec0f73feaae2df6e3ffaf03247dcaf3c3
+  revision: 64ae50fe073718ee867acccd4aa0c73bdc3f22ca
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -60,7 +60,7 @@ GEM
       tzinfo (~> 0.3.22)
     eventmachine (1.0.3)
     excon (0.31.0)
-    faraday (0.8.8)
+    faraday (0.8.9)
       multipart-post (~> 1.2.0)
     fog (1.19.0)
       builder
@@ -90,7 +90,7 @@ GEM
     httpauth (0.2.0)
     i18n (0.6.9)
     json (1.8.1)
-    jwt (0.1.8)
+    jwt (0.1.10)
       multi_json (>= 1.5)
     leftronicapi (1.2.0)
       curb
@@ -102,7 +102,7 @@ GEM
       treetop (>= 1.4.5)
     mime-types (2.0)
     mono_logger (1.1.0)
-    multi_json (1.8.2)
+    multi_json (1.8.4)
     multi_xml (0.5.5)
     multipart-post (1.2.0)
     net-scp (1.1.2)
