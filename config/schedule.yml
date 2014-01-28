@@ -100,3 +100,21 @@ membership_coverage:
   class: MembershipCoverage
   args:
   description: "Calculate membership coverage metrics"
+
+company_dashboard:
+  every: 1h
+  class: CompanyDashboard
+  args:
+  description: "Gather metrics for dashboard"
+
+quarterly_progress:
+  every: 1d
+  class: QuarterlyProgress
+  args:
+  description: "How do I quarter?"
+
+certificate_count:
+  every: 1d
+  class: CertificateCount
+  args:
+  description: "Certificated Datasets into the Metrics API"
