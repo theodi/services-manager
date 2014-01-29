@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: 2ad69bd3b155b1c3183c4240a4d01b8f557723c0
+  revision: 1fe0ba818f60830348f95a5de196e91235d9ddf5
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -17,6 +17,7 @@ GIT
       eventbrite-client (~> 0.1, >= 0.1.4)
       fog (~> 1.12, >= 1.12.1)
       github_api (~> 0.9, >= 0.9.0, <= 0.10.1)
+      google_drive (~> 0.3, >= 0.3.6)
       httparty
       leftronicapi (~> 1.2, >= 1.2.0)
       pony (~> 1.6, >= 1.6.2)
@@ -83,6 +84,10 @@ GEM
       multi_json (~> 1.4)
       nokogiri (~> 1.5.2)
       oauth2
+    google_drive (0.3.6)
+      nokogiri (>= 1.4.4, != 1.5.2, != 1.5.1)
+      oauth (>= 0.3.6)
+      oauth2 (>= 0.5.0)
     hashie (2.0.5)
     httparty (0.8.3)
       multi_json (~> 1.0)
