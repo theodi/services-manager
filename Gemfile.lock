@@ -117,7 +117,7 @@ GEM
     multipart-post (1.2.0)
     net-scp (1.1.2)
       net-ssh (>= 2.6.5)
-    net-ssh (2.7.0)
+    net-ssh (2.8.0)
     nokogiri (1.5.11)
     oauth (0.4.7)
     oauth2 (0.9.3)
@@ -144,7 +144,7 @@ GEM
       vegas (~> 0.1.2)
     resque-history (1.11.1)
       resque
-    resque-scheduler (2.3.1)
+    resque-scheduler (2.4.0)
       redis (>= 3.0.0)
       resque (~> 1.25)
       rufus-scheduler (~> 2.0)
