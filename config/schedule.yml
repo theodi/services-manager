@@ -101,11 +101,17 @@ membership_coverage:
   args:
   description: "Calculate membership coverage metrics"
 
-company_dashboard:
+financial_metrics:
   every: 1h
-  class: CompanyDashboard
+  class: FinancialMetrics
   args:
-  description: "Gather metrics for dashboard"
+  description: "Gather financial metrics for dashboard"
+
+network_metrics:
+  every: 1h
+  class: NetworkMetrics
+  args:
+  description: "Gather network metrics for dashboard"
 
 quarterly_progress:
   every: 1d
