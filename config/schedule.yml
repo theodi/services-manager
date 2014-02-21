@@ -117,6 +117,12 @@ membership_coverage:
   args:
   description: "Calculate membership coverage metrics"
 
+google_drive_mover:
+  every: 5m
+  class: GoogleDrive::Mover
+  args:
+  description: "Moves Xero export into aggregate spreadsheet"
+
 financial_metrics:
   every: 
     - 1h
