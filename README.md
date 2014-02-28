@@ -1,8 +1,10 @@
-# Services Manager
+[![Build Status](http://img.shields.io/travis/theodi/services-manager.svg)](https://travis-ci.org/theodi/services-manager)
+[![Dependency Status](http://img.shields.io/gemnasium/theodi/services-manager.svg)](https://gemnasium.com/theodi/services-manager)
+[![Code Climate](http://img.shields.io/codeclimate/github/theodi/services-manager.svg)](https://codeclimate.com/github/theodi/services-manager)
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://theodi.mit-license.org)
+[![Badges](http://img.shields.io/:badges-5/5-ff6799.svg)](https://github.com/pikesley/badger)
 
-[![Build Status](http://jenkins.theodi.org/job/services-manager-master/badge/icon)](http://jenkins.theodi.org/job/services-manager-master/)
-[![Dependency Status](https://gemnasium.com/theodi/services-manager.png)](https://gemnasium.com/theodi/services-manager)
-[![Code Climate](https://codeclimate.com/github/theodi/services-manager.png)](https://codeclimate.com/github/theodi/services-manager)
+# Services Manager
 
 This repository is a runner for the code in [open-orgn-services](https://github.com/theodi/open-orgn-services)
 
