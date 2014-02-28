@@ -20,8 +20,9 @@ notifications:
     on_failure: always
 env:
   global:
-    - RESQUE_REDIS_HOST='localhost'
-    - RESQUE_REDIS_PORT='6379'
-    - CAPSULECRM_ACCOUNT_NAME='accountname'
-    - CAPSULECRM_API_TOKEN='madeupkey'
-    
+  - RESQUE_REDIS_HOST='localhost'
+  - RESQUE_REDIS_PORT='6379'
+  - CAPSULECRM_ACCOUNT_NAME='accountname'
+  - CAPSULECRM_API_TOKEN='madeupkey'
+  - secure: VxfTKf3VbPQCs8jB3Yif82WWeP2bN9JUwrn0npYxGZcrCn+AP/3MFYl/ZkPAAhiAk8xkNplMVvEYJUMypm58v0ok8ZNjoeYH2ACjQl4M9C5JEefrzXiqix+UZKXxxA/D9VaA1+THyRUoB877TdAE0Rqh44tOpGhzvE4bPPZJ7PE=
+  - secure: bsyRv7XBZrvvvGRdVLcVjTn6FtSGfy/dsT4Llx7nd75kEIADGNLHVPAMvCJMrPC1dAwgBCoZTmXpyQZkQykezQxEoRKSJgdg8RFGMpBh4YL+ajZtZMJjAq+jlEbXWijyO7vjytZVkhzVc1yZ8Nex+6tpPwybcLCDAWE70mMhCDE=
