@@ -65,7 +65,7 @@ GEM
     builder (3.0.4)
     curb (0.8.5)
     daemons (1.1.9)
-    dotenv (0.9.0)
+    dotenv (0.10.0)
     eventbrite-client (0.1.4)
       httparty (~> 0.8.0)
       tzinfo (~> 0.3.22)
