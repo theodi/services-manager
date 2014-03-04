@@ -3,9 +3,10 @@ rvm:
 - 1.9.3
 services: redis
 after_success:
-- ! '[ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && curl -v -X DELETE -u $GITHUB_USER:$GITHUB_PASSWORD
-  "https://api.github.com/repos/$TRAVIS_REPO_SLUG/git/refs/tags/CURRENT"'
-- ! '[ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && curl -v -X POST -d ''{"ref":"refs/tags/CURRENT","sha":"''$TRAVIS_COMMIT''"}''  --header
+- ! '[ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] &&
+  curl -v -X DELETE -u $GITHUB_USER:$GITHUB_PASSWORD "https://api.github.com/repos/$TRAVIS_REPO_SLUG/git/refs/tags/CURRENT"'
+- ! '[ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] &&
+  curl -v -X POST -d ''{"ref":"refs/tags/CURRENT","sha":"''$TRAVIS_COMMIT''"}''  --header
   "Content-Type:application/json" -u $GITHUB_USER:$GITHUB_PASSWORD "https://api.github.com/repos/$TRAVIS_REPO_SLUG/git/refs"'
 branches:
   except:
@@ -24,5 +25,5 @@ env:
   - RESQUE_REDIS_PORT='6379'
   - CAPSULECRM_ACCOUNT_NAME='accountname'
   - CAPSULECRM_API_TOKEN='madeupkey'
-  - secure: VxfTKf3VbPQCs8jB3Yif82WWeP2bN9JUwrn0npYxGZcrCn+AP/3MFYl/ZkPAAhiAk8xkNplMVvEYJUMypm58v0ok8ZNjoeYH2ACjQl4M9C5JEefrzXiqix+UZKXxxA/D9VaA1+THyRUoB877TdAE0Rqh44tOpGhzvE4bPPZJ7PE=
-  - secure: bsyRv7XBZrvvvGRdVLcVjTn6FtSGfy/dsT4Llx7nd75kEIADGNLHVPAMvCJMrPC1dAwgBCoZTmXpyQZkQykezQxEoRKSJgdg8RFGMpBh4YL+ajZtZMJjAq+jlEbXWijyO7vjytZVkhzVc1yZ8Nex+6tpPwybcLCDAWE70mMhCDE=
+  - secure: FL52KsbPBnpuKWszMOzYnOKMNz+ok4IE+1krpr1TmGlp7tdnbr2Y1PjuGr6R9Ij0EgOW7tCSrUTGm+X/NgE1pA0lGc70GGDFclaAyzc23cJRTeuwt6vxo6ZAxcpYkplwB36rFWflwT44jKoYtSmiDq2sgjElSwlYab2vBzG1oyw=
+  - secure: jvnx0e1emht9NnLHjiUN+4FBQn2f9Ygu4mp2vw90GONgeSjEkIzgj3o2a6DsdayUzHxQdSQuoAf+ifdOrgQWFiWGW6GcDLeh8CEG7elOqIwp5E/e42ecgAO8ehLp/6VZY3Lq5TBokdYjmq/QCc2mwcoWntbMKcNo3vv7qATxptY=
