@@ -19,7 +19,7 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: 498a1d8fec23f985aa957e0623d976072e35439c
+  revision: f3eb510ff89e1eb0af03dd407a587678c4b06754
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -131,7 +131,7 @@ GEM
     rack (1.5.2)
     rack-protection (1.5.2)
       rack
-    rake (10.3.1)
+    rake (10.3.2)
     redis (3.0.7)
     redis-namespace (1.4.1)
       redis (~> 3.0.4)
