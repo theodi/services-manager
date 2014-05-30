@@ -19,7 +19,7 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: f3eb510ff89e1eb0af03dd407a587678c4b06754
+  revision: 5bfbb7c69a61ef6eaefee420de2582d6f96dc3cf
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -125,7 +125,7 @@ GEM
       multi_json (~> 1.3)
       multi_xml (~> 0.5)
       rack (~> 1.2)
-    polyglot (0.3.4)
+    polyglot (0.3.5)
     pony (1.8)
       mail (>= 2.0)
     rack (1.5.2)
