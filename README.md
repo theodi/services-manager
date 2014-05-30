@@ -11,10 +11,10 @@ This repository is a runner for the code in [open-orgn-services](https://github.
 Setup
 -----
 
-Configuration is loaded from environment variables. Copy env.example to .env 
+Configuration is loaded from environment variables. Copy env.example to .env
 and enter the appropriate details.
 
-This app uses [resque](https://github.com/defunkt/resque) for async job queueing. 
+This app uses [resque](https://github.com/defunkt/resque) for async job queueing.
 You'll need to install redis, run it, and then run a worker to process jobs. On OSX:
 
     brew install redis
@@ -64,5 +64,6 @@ Next step is to proxy the web interface with nginx, but that's an infrastucture 
 License
 -------
 
-This code is open source under the MIT license. See the LICENSE.md file for 
+This code is open source under the MIT license. See the LICENSE.md file for
 full details.
+ 
