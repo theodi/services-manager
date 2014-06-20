@@ -19,7 +19,7 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: 7be5b0cc9e155725ac78d0d568367b78cbdeff40
+  revision: 1989cd1a76a21e98e85de2ff5bbeae04579567c1
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
