@@ -164,3 +164,10 @@ certificate_count:
   class: CertificateCount
   args:
   description: "Certificated Datasets into the Metrics API"
+
+diversity_metrics:
+  every:
+    - 1d
+  class: DiversityMetrics
+  args:
+  description: "Load diversity data into the Metrics API"
