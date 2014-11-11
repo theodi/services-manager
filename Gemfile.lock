@@ -19,7 +19,7 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: dfc3105f436fc4d3dfb65b45657a62ed205cb0cc
+  revision: c2c1dd30a750f55b72f0a2fb9dfe845e8f0dddae
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -122,7 +122,7 @@ GEM
       curb
       json
       rake
-    mail (2.6.1)
+    mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mime-types (1.25.1)
     mono_logger (1.1.0)
