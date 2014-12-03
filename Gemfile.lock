@@ -19,11 +19,12 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: 0e0043ee4524759bf444116e244eccb2afbf98ef
+  revision: 3e7785e352cc015e6cbf9766adf14785109e7f06
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
       capsulecrm
+      curb (~> 0.8, >= 0.8.6)
       eventbrite-client (~> 0.1, >= 0.1.4)
       fog (~> 1.12, >= 1.12.1)
       github_api (~> 0.9, >= 0.9.0, <= 0.10.1)
@@ -63,6 +64,7 @@ GEM
       builder
       multi_json
     builder (3.0.4)
+    curb (0.8.6)
     daemons (1.1.9)
     dotenv (1.0.2)
     eventbrite-client (0.1.4)
@@ -175,7 +177,7 @@ GEM
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
-    rake (10.4.1)
+    rake (10.4.2)
     rbvmomi (1.8.2)
       builder
       nokogiri (>= 1.4.1)

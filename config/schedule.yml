@@ -1,3 +1,10 @@
+dependency_metrics:
+  every:
+    - 1d
+  class: DependencyMetrics
+  args:
+  description: "Update dependency counts from Gemnasium"
+
 github_issues:
   every:
     - 5m
