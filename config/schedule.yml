@@ -1,3 +1,10 @@
+application_errors:
+  every:
+    - 5m
+  class: ApplicationErrors
+  args:
+  description: "Update Airbrake error count"
+
 dependency_metrics:
   every:
     - 1d
