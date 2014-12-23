@@ -18,8 +18,8 @@ GIT
       oauth2 (>= 0.5.0)
 
 GIT
-  remote: https://github.com/theodi/capsulecrm.git
-  revision: 5351f3995366a2ecaff018776886fc1a115461ee
+  remote: git://github.com/xmacinka/capsulecrm.git
+  revision: c098caa30db0dc4b2a03fe7139b73e8a314ae962
   specs:
     capsulecrm (0.0.4)
       activemodel (>= 3.0.5)
@@ -46,17 +46,6 @@ GIT
       ruby-trello (~> 0.5, >= 0.5.1)
       rufus-scheduler (< 3.0.0)
       xeroizer (~> 2.15, >= 2.15.3)
-
-GIT
-  remote: https://github.com/theodi/xeroizer.git
-  revision: 7c86c917eaf515bcec012ea0fbf682669d50fbaa
-  specs:
-    xeroizer (2.15.3)
-      activesupport (~> 3.2.12)
-      builder (>= 2.1.2)
-      i18n
-      nokogiri
-      oauth (~> 0.4.5)
 
 GEM
   remote: https://rubygems.org/
@@ -232,6 +221,13 @@ GEM
     tzinfo (0.3.42)
     vegas (0.1.11)
       rack (>= 1.0.0)
+    xeroizer (2.15.6)
+      activesupport
+      builder (>= 2.1.2)
+      i18n
+      nokogiri
+      oauth (>= 0.4.5)
+      tzinfo
 
 PLATFORMS
   ruby
@@ -249,4 +245,3 @@ DEPENDENCIES
   resque-scheduler
   rufus-scheduler (< 3.0.0)
   thin
-  xeroizer!
