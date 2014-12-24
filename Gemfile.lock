@@ -28,7 +28,7 @@ GIT
 
 GIT
   remote: https://github.com/theodi/open-orgn-services.git
-  revision: 001525bbd8cbeb143f23b453a4d0d0131e625b21
+  revision: 869aa31058c887122d618e1c41853623b96c4d43
   specs:
     open-orgn-services (0.0.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -45,7 +45,7 @@ GIT
       resque-scheduler (~> 2.0, >= 2.0.0)
       ruby-trello (~> 0.5, >= 0.5.1)
       rufus-scheduler (< 3.0.0)
-      xeroizer (~> 2.15, >= 2.15.3)
+      xeroizer (~> 2.15, >= 2.15.6)
 
 GEM
   remote: https://rubygems.org/
@@ -65,7 +65,7 @@ GEM
     curb (0.8.6)
     daemons (1.1.9)
     dotenv (1.0.2)
-    eventmachine (1.0.3)
+    eventmachine (1.0.4)
     excon (0.42.1)
     faraday (0.8.9)
       multipart-post (~> 1.2.0)
@@ -95,7 +95,7 @@ GEM
       fog-core (~> 1.22)
       fog-json
       inflecto (~> 0.0.2)
-    fog-core (1.27.1)
+    fog-core (1.27.2)
       builder
       excon (~> 0.38)
       formatador (~> 0.2)
@@ -118,7 +118,7 @@ GEM
     fog-sakuracloud (0.1.1)
       fog-core
       fog-json
-    fog-softlayer (0.3.25)
+    fog-softlayer (0.3.26)
       fog-core
       fog-json
     fog-storm_on_demand (0.1.0)
@@ -151,7 +151,7 @@ GEM
     httparty (0.13.3)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
-    i18n (0.6.11)
+    i18n (0.7.0)
     inflecto (0.0.2)
     ipaddress (0.8.0)
     json (1.8.1)
@@ -176,7 +176,7 @@ GEM
       rack (~> 1.2)
     pony (1.11)
       mail (>= 2.0)
-    rack (1.5.2)
+    rack (1.6.0)
     rack-protection (1.5.3)
       rack
     rake (10.4.2)
