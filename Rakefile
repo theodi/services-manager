@@ -12,7 +12,8 @@ namespace :resque do
     require 'resque_scheduler'
     require 'resque/scheduler'
     require 'open-orgn-services'
-    
+    require 'odi-metrics-tasks'
+
     # Enable job history for some classes
     require 'resque-history'
     [
