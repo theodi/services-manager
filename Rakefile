@@ -14,6 +14,13 @@ namespace :resque do
     require 'open-orgn-services'
     require 'odi-metrics-tasks'
 
+    raise "Redis configuration not set" unless ENV['RESQUE_REDIS_HOST'] && ENV['RESQUE_REDIS_PORT']
+    Resque.redis = Redis.new(
+      :host => ENV['RESQUE_REDIS_HOST'],
+      :port => ENV['RESQUE_REDIS_PORT'],
+      :password => (ENV['RESQUE_REDIS_PASSWORD'].nil? || ENV['RESQUE_REDIS_PASSWORD']=='' ? nil : ENV['RESQUE_REDIS_PASSWORD'])
+    )
+
     # Enable job history for some classes
     require 'resque-history'
     [
@@ -33,11 +40,11 @@ namespace :resque do
         extend Resque::Plugins::History
       end
     end
-    
+
     # Set up failure notifications
     require 'resque/failure/redis'
     require 'resque/failure/airbrake'
-    require 'resque/failure/multiple'    
+    require 'resque/failure/multiple'
     if ENV['AIRBRAKE_SERVICES_KEY']
       Resque::Failure::Multiple.classes = [Resque::Failure::Redis, Resque::Failure::Airbrake]
       Resque::Failure.backend = Resque::Failure::Multiple
