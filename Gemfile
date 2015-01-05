@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 
 gem 'dotenv'
 gem 'xeroizer'
-gem 'capsulecrm'
+gem 'capsulecrm', github: 'xmacinka/capsulecrm'
 
 # Manually specify some dependencies so we use our own versions
 gem 'google_drive', github: 'theodi/google-drive-ruby', branch: 'support-ranges'
