@@ -11,8 +11,6 @@ namespace :resque do
     require 'resque'
     require 'resque_scheduler'
     require 'resque/scheduler'
-    require 'open-orgn-services'
-    require 'odi-metrics-tasks'
 
     raise "Redis configuration not set" unless ENV['RESQUE_REDIS_HOST'] && ENV['RESQUE_REDIS_PORT']
     Resque.redis = Redis.new(
@@ -20,6 +18,9 @@ namespace :resque do
       :port => ENV['RESQUE_REDIS_PORT'],
       :password => (ENV['RESQUE_REDIS_PASSWORD'].nil? || ENV['RESQUE_REDIS_PASSWORD']=='' ? nil : ENV['RESQUE_REDIS_PASSWORD'])
     )
+
+    require 'open-orgn-services'
+    require 'odi-metrics-tasks'
 
     # Enable job history for some classes
     require 'resque-history'
