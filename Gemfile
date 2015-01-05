@@ -11,7 +11,8 @@ gem 'capsulecrm'
 gem 'google_drive', github: 'theodi/google-drive-ruby', branch: 'support-ranges'
 
 # Include ALL THE CODE
-gem 'open-orgn-services', :git =>  'https://github.com/theodi/open-orgn-services.git'
+gem 'open-orgn-services', github:  'theodi/open-orgn-services'
+gem 'odi-metrics-tasks', github:  'theodi/odi-metrics-tasks'
 
 # Queue runner code
 gem 'rufus-scheduler', '< 3.0.0'
