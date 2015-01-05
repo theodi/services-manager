@@ -253,6 +253,7 @@ DEPENDENCIES
   dotenv
   fog
   foreman (< 0.65)
+  github_api
   google_drive!
   odi-metrics-tasks!
   open-orgn-services!

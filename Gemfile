@@ -23,3 +23,4 @@ gem 'foreman', '< 0.65'
 
 gem 'airbrake'
 gem 'fog'
+gem 'github_api'

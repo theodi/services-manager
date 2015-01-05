@@ -27,3 +27,5 @@ env:
   - CAPSULECRM_API_TOKEN='madeupkey'
   - secure: FL52KsbPBnpuKWszMOzYnOKMNz+ok4IE+1krpr1TmGlp7tdnbr2Y1PjuGr6R9Ij0EgOW7tCSrUTGm+X/NgE1pA0lGc70GGDFclaAyzc23cJRTeuwt6vxo6ZAxcpYkplwB36rFWflwT44jKoYtSmiDq2sgjElSwlYab2vBzG1oyw=
   - secure: jvnx0e1emht9NnLHjiUN+4FBQn2f9Ygu4mp2vw90GONgeSjEkIzgj3o2a6DsdayUzHxQdSQuoAf+ifdOrgQWFiWGW6GcDLeh8CEG7elOqIwp5E/e42ecgAO8ehLp/6VZY3Lq5TBokdYjmq/QCc2mwcoWntbMKcNo3vv7qATxptY=
+  - GITHUB_OAUTH_TOKEN='madeupkey'
+  
