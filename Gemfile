@@ -16,7 +16,7 @@ gem 'odi-metrics-tasks', github:  'theodi/odi-metrics-tasks'
 
 # Queue runner code
 gem 'rufus-scheduler', '< 3.0.0'
-gem 'resque-scheduler', :require => 'resque_scheduler'
+gem 'resque-scheduler', '~> 2.5', :require => 'resque_scheduler'
 gem 'resque-history'
 gem 'thin'
 gem 'foreman', '< 0.65'

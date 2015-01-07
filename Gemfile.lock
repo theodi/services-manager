@@ -205,9 +205,8 @@ GEM
       vegas (~> 0.1.2)
     resque-history (1.12.3)
       resque
-    resque-scheduler (3.1.0)
-      mono_logger (~> 1.0)
-      redis (~> 3.0)
+    resque-scheduler (2.5.1)
+      redis (>= 3.0.0)
       resque (~> 1.25)
       rufus-scheduler (~> 2.0)
     rest-client (1.6.8)
@@ -257,7 +256,7 @@ DEPENDENCIES
   odi-metrics-tasks!
   open-orgn-services!
   resque-history
-  resque-scheduler
+  resque-scheduler (~> 2.5)
   rufus-scheduler (< 3.0.0)
   thin
   xeroizer
