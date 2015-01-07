@@ -40,13 +40,6 @@ github_prs:
   args:
   description: "Pulls pull request counts from Github"
 
-github_outgoing_prs:
-  every:
-    - 1h
-  class: Github::OutgoingPullRequestMonitor
-  args:
-  description: "Pulls outgoing pull request count from Github"
-
 hubot:
   every:
     - 1m
