@@ -10,7 +10,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/odi-metrics-tasks.git
-  revision: 6d3f23b0183cf82121c9f8526f926b8b18874099
+  revision: 6b1ddccf552a7b7c12485c029d97fac7c1a2d8f6
   specs:
     odi-metrics-tasks (0.1.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -26,7 +26,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/open-orgn-services.git
-  revision: dd6a735b9261c594fadd5340271a0fd5fa379be2
+  revision: 6e85c938c83e396a995c11feec31d5a2aa3ae72c
   specs:
     open-orgn-services (0.1.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -75,8 +75,8 @@ GEM
     eventbrite-client (0.1.4)
       httparty (~> 0.8.0)
       tzinfo (~> 0.3.22)
-    eventmachine (1.0.4)
-    excon (0.43.0)
+    eventmachine (1.0.6)
+    excon (0.44.1)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
     fission (0.5.0)
@@ -103,7 +103,7 @@ GEM
     fog-atmos (0.1.0)
       fog-core
       fog-xml
-    fog-aws (0.0.8)
+    fog-aws (0.1.0)
       fog-core (~> 1.27)
       fog-json (~> 1.0)
       fog-xml (~> 0.1)
@@ -112,7 +112,7 @@ GEM
       fog-core (~> 1.22)
       fog-json
       inflecto (~> 0.0.2)
-    fog-core (1.27.4)
+    fog-core (1.28.0)
       builder
       excon (~> 0.38)
       formatador (~> 0.2)
@@ -138,7 +138,7 @@ GEM
     fog-serverlove (0.1.1)
       fog-core
       fog-json
-    fog-softlayer (0.3.30)
+    fog-softlayer (0.4.0)
       fog-core
       fog-json
     fog-storm_on_demand (0.1.0)
@@ -168,7 +168,7 @@ GEM
       multi_json (>= 1.7.5, < 2.0)
       nokogiri (~> 1.6.3)
       oauth2
-    hashie (3.3.2)
+    hashie (3.4.0)
     httparty (0.8.3)
       multi_json (~> 1.0)
       multi_xml
@@ -243,7 +243,7 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.4)
     tilt (1.4.1)
-    tzinfo (0.3.42)
+    tzinfo (0.3.43)
     vegas (0.1.11)
       rack (>= 1.0.0)
     xeroizer (2.15.8)
