@@ -156,3 +156,9 @@ diversity_metrics:
   class: DiversityMetrics
   args:
   description: "Load diversity data into the Metrics API"
+
+chargify_finance_report:
+  cron: 0 1 1 * *
+  class: ChargifyReportGenerator
+  args:
+  description: "Report last months membership revenue to finance at the beginning of the month"
