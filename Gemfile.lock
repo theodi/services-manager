@@ -1,16 +1,17 @@
 GIT
   remote: git://github.com/theodi/google-drive-ruby.git
-  revision: 2ac538abec2dfc3ae45079946fbb2bd4f68970ba
-  branch: support-ranges
+  revision: fb89a30d145d6ba6d08c2ef45f058c273a0f3de6
+  branch: 1.0.1
   specs:
-    google_drive (0.3.6)
+    google_drive (1.0.0)
+      google-api-client (>= 0.7.0)
       nokogiri (>= 1.4.4, != 1.5.2, != 1.5.1)
       oauth (>= 0.3.6)
       oauth2 (>= 0.5.0)
 
 GIT
   remote: git://github.com/theodi/odi-metrics-tasks.git
-  revision: dc6393d65fdc53225e23c06f158bad639e8adb16
+  revision: d36b210ca6822b2cab98a871fcf4436e6b9e4246
   specs:
     odi-metrics-tasks (0.1.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -18,7 +19,7 @@ GIT
       curb (~> 0.8, >= 0.8.6)
       fog (~> 1.12, >= 1.12.1)
       github_api (~> 0.12, >= 0.12.2)
-      google_drive (~> 0.3, >= 0.3.6)
+      google-api-client (>= 0.7.0)
       httparty
       rake (~> 10.0, >= 10.0.3)
       resque (~> 1.23, >= 1.23.0)
@@ -26,15 +27,15 @@ GIT
 
 GIT
   remote: git://github.com/theodi/open-orgn-services.git
-  revision: 8d4bee0d8a596349d66fa84af2e3693f76458e86
+  revision: 3627d6ead4dfc0ab7b734d14d2224cbba7a6733e
   specs:
     open-orgn-services (0.1.0)
       activemodel (~> 3.2, >= 3.2.12)
       capsulecrm
+      chargify_api_ares (~> 1.3, >= 1.3.1)
       curb (~> 0.8, >= 0.8.6)
       eventbrite-client (~> 0.1, >= 0.1.3)
       fog (~> 1.12, >= 1.12.1)
-      google_drive (~> 0.3, >= 0.3.6)
       httparty
       pony (~> 1.6, >= 1.6.2)
       rake (~> 10.0, >= 10.0.3)
@@ -59,6 +60,9 @@ GEM
     activemodel (3.2.21)
       activesupport (= 3.2.21)
       builder (~> 3.0.0)
+    activeresource (3.2.21)
+      activemodel (= 3.2.21)
+      activesupport (= 3.2.21)
     activesupport (3.2.21)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
@@ -66,7 +70,13 @@ GEM
     airbrake (4.1.0)
       builder
       multi_json
+    autoparse (0.3.3)
+      addressable (>= 2.3.1)
+      extlib (>= 0.9.15)
+      multi_json (>= 1.0.0)
     builder (3.0.4)
+    chargify_api_ares (1.3.3)
+      activeresource (>= 3.2.16)
     curb (0.8.6)
     daemons (1.1.9)
     descendants_tracker (0.0.4)
@@ -77,6 +87,7 @@ GEM
       tzinfo (~> 0.3.22)
     eventmachine (1.0.7)
     excon (0.44.3)
+    extlib (0.9.16)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
     fission (0.5.0)
@@ -173,6 +184,16 @@ GEM
       multi_json (>= 1.7.5, < 2.0)
       nokogiri (~> 1.6.3)
       oauth2
+    google-api-client (0.8.2)
+      activesupport (>= 3.2)
+      addressable (~> 2.3)
+      autoparse (~> 0.3)
+      extlib (~> 0.9)
+      faraday (~> 0.9)
+      launchy (~> 2.4)
+      multi_json (~> 1.10)
+      retriable (~> 1.4)
+      signet (~> 0.6)
     hashie (3.4.0)
     httparty (0.8.3)
       multi_json (~> 1.0)
@@ -182,6 +203,8 @@ GEM
     ipaddress (0.8.0)
     json (1.8.2)
     jwt (1.3.0)
+    launchy (2.4.3)
+      addressable (~> 2.3)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mime-types (1.25.1)
@@ -229,6 +252,7 @@ GEM
     rest-client (1.6.8)
       mime-types (~> 1.16)
       rdoc (>= 2.4.2)
+    retriable (1.4.1)
     ruby-trello (0.6.0)
       activemodel
       addressable (~> 2.3)
@@ -237,6 +261,12 @@ GEM
       rest-client (~> 1.6.7)
     rufus-scheduler (2.0.24)
       tzinfo (>= 0.3.22)
+    signet (0.6.0)
+      addressable (~> 2.3)
+      extlib (~> 0.9)
+      faraday (~> 0.9)
+      jwt (~> 1.0)
+      multi_json (~> 1.10)
     sinatra (1.4.5)
       rack (~> 1.4)
       rack-protection (~> 1.4)

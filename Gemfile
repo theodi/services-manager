@@ -8,7 +8,7 @@ gem 'xeroizer'
 gem 'capsulecrm', github: 'xmacinka/capsulecrm'
 
 # Manually specify some dependencies so we use our own versions
-gem 'google_drive', github: 'theodi/google-drive-ruby', branch: 'support-ranges'
+gem 'google_drive', github: 'theodi/google-drive-ruby', branch: '1.0.1'
 
 # Include ALL THE CODE
 gem 'open-orgn-services', github:  'theodi/open-orgn-services'
