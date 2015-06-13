@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/odi-metrics-tasks.git
-  revision: f3aaa2f722c331fa40179147994036123fa0975f
+  revision: 61b3b81ae02a4d210f590720021a32abbb60e939
   specs:
     odi-metrics-tasks (0.1.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -258,8 +258,6 @@ GEM
     rack-protection (1.5.3)
       rack
     rake (10.4.2)
-    rdoc (4.2.0)
-      json (~> 1.4)
     redis (3.0.7)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
@@ -276,9 +274,8 @@ GEM
       redis (~> 3.0.4)
       resque (~> 1.25.1)
       rufus-scheduler (~> 2.0.24)
-    rest-client (1.6.8)
+    rest-client (1.6.9)
       mime-types (~> 1.16)
-      rdoc (>= 2.4.2)
     retriable (1.4.1)
     ruby-trello (0.6.0)
       activemodel
