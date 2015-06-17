@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/odi-metrics-tasks.git
-  revision: 8ec788276fefe0c6ae7d3192fb7a536c00272c79
+  revision: 8cd393dad08878d2dc9a2a3c5f4c9992b8f6d557
   specs:
     odi-metrics-tasks (0.1.0)
       activemodel (~> 3.2, >= 3.2.12)
