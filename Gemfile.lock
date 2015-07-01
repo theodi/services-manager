@@ -27,7 +27,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/open-orgn-services.git
-  revision: 8fb83865df52e6b9ce7b63f20d5cd2bf2615a129
+  revision: 2da17590cbec7ec0a4333d679225f99b82f28213
   specs:
     open-orgn-services (0.1.3)
       activemodel (~> 3.2, >= 3.2.12)
@@ -78,7 +78,7 @@ GEM
     chargify_api_ares (1.3.4)
       activeresource (>= 3.2.16)
     curb (0.8.8)
-    daemons (1.2.2)
+    daemons (1.2.3)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     dotenv (0.7.0)
@@ -123,7 +123,7 @@ GEM
       fog-json (~> 1.0)
       fog-xml (~> 0.1)
       ipaddress (~> 0.8)
-    fog-brightbox (0.7.1)
+    fog-brightbox (0.7.2)
       fog-core (~> 1.22)
       fog-json
       inflecto (~> 0.0.2)
@@ -134,7 +134,7 @@ GEM
       mime-types
       net-scp (~> 1.1)
       net-ssh (>= 2.1.3)
-    fog-ecloud (0.2.0)
+    fog-ecloud (0.3.0)
       fog-core
       fog-xml
     fog-google (0.0.6)
