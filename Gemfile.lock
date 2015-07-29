@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/odi-metrics-tasks.git
-  revision: 38ca950543ac23c1b6efead13c7dc0604ac411a8
+  revision: 8aead4fee3882010810ff78379dfd4880417eaf5
   specs:
     odi-metrics-tasks (0.1.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -27,7 +27,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/open-orgn-services.git
-  revision: ad9a88f807740a8a0f931f86e5fb5df76c09a16c
+  revision: b76e5ad5f9fe2b63db5dbbc3b70a1b0edc0c0deb
   specs:
     open-orgn-services (0.1.3)
       activemodel (~> 3.2, >= 3.2.12)
@@ -150,7 +150,7 @@ GEM
       fog-core (~> 1.27)
       fog-json (~> 1.0)
       fog-xml (~> 0.1)
-    fog-profitbricks (0.0.3)
+    fog-profitbricks (0.0.5)
       fog-core
       fog-xml
       nokogiri
