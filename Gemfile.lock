@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/odi-metrics-tasks.git
-  revision: 2a5a53046b11772e9f4100769b3e727cc7b3f7ce
+  revision: 6ae44ff57497b4fcb0cf2433dccb81a120c5e2e2
   specs:
     odi-metrics-tasks (0.1.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -27,7 +27,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/open-orgn-services.git
-  revision: 0f58081ce0c68c643bbc269d7c32cb13a2ef2cbe
+  revision: 7f13391611e6af6887433e31031ef8c1dacec0e8
   specs:
     open-orgn-services (0.1.3)
       activemodel (~> 3.2, >= 3.2.12)
@@ -92,13 +92,13 @@ GEM
       multipart-post (>= 1.2, < 3)
     fission (0.5.0)
       CFPropertyList (~> 2.2)
-    fog (1.33.0)
+    fog (1.34.0)
       fog-atmos
       fog-aws (>= 0.6.0)
       fog-brightbox (~> 0.4)
       fog-core (~> 1.32)
-      fog-dynect
-      fog-ecloud (= 0.1.1)
+      fog-dynect (~> 0.0.2)
+      fog-ecloud (~> 0.1)
       fog-google (>= 0.0.2)
       fog-json
       fog-local
@@ -139,7 +139,7 @@ GEM
       fog-core
       fog-json
       fog-xml
-    fog-ecloud (0.1.1)
+    fog-ecloud (0.3.0)
       fog-core
       fog-xml
     fog-google (0.0.7)
@@ -167,7 +167,7 @@ GEM
       fog-core
       fog-json
       fog-xml
-    fog-sakuracloud (1.0.1)
+    fog-sakuracloud (1.1.0)
       fog-core
       fog-json
     fog-serverlove (0.1.2)
