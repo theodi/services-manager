@@ -35,7 +35,9 @@ namespace :resque do
         EventMonitor,
         AttendeeMonitor,
         SignupProcessor,
-        Invoicer
+        Invoicer,
+        SyncMailingList,
+        UpdateMailingList
     ].each do |klazz|
       klazz.class_eval do
         extend Resque::Plugins::History
