@@ -149,3 +149,11 @@ chargify_finance_report:
   class: ChargifyReportGenerator
   args:
   description: "Report last months membership revenue to finance at the beginning of the month"
+
+sync_mailing_list:
+  every:
+    - 1d
+  class: SyncMailingList
+  args:
+  description: "Sync mailing list subscribers from Capsule"
+
