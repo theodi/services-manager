@@ -151,8 +151,7 @@ chargify_finance_report:
   description: "Report last months membership revenue to finance at the beginning of the month"
 
 sync_mailing_list:
-  every:
-    - 1d
+  cron: 0 3 * * *
   class: SyncMailingList
   args:
   description: "Sync mailing list subscribers from Capsule"
