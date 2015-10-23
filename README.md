@@ -6,7 +6,7 @@
 
 # Services Manager
 
-This repository is a runner for the code in [open-orgn-services](https://github.com/theodi/open-orgn-services)
+This repository is a runner for the code in [open-orgn-services](https://github.com/theodi/open-orgn-services) and [odi-metrics-tasks](https://github.com/theodi/odi-metrics-tasks)
 
 Setup
 -----
