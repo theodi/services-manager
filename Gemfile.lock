@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/odi-metrics-tasks.git
-  revision: a2da31ec9826833f02e0056629febb7eb8c61450
+  revision: 2e58373be2130e9c53c66160bbb20f5d1d0522a3
   specs:
     odi-metrics-tasks (0.1.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -340,6 +340,3 @@ DEPENDENCIES
   rufus-scheduler (< 3.0.0)
   thin
   xeroizer
-
-BUNDLED WITH
-   1.10.6
