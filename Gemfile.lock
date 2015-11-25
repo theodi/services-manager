@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/odi-metrics-tasks.git
-  revision: 2e58373be2130e9c53c66160bbb20f5d1d0522a3
+  revision: 3751efefdbecac84b3d333e3b366c61ba8973510
   specs:
     odi-metrics-tasks (0.1.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -68,7 +68,7 @@ GEM
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
     addressable (2.3.8)
-    airbrake (4.3.3)
+    airbrake (4.3.4)
       builder
       multi_json
     autoparse (0.3.3)
@@ -136,11 +136,10 @@ GEM
       fog-core (~> 1.22)
       fog-json
       inflecto (~> 0.0.2)
-    fog-core (1.34.0)
+    fog-core (1.35.0)
       builder
       excon (~> 0.45)
       formatador (~> 0.2)
-      mime-types
     fog-dynect (0.0.2)
       fog-core
       fog-json
@@ -173,7 +172,7 @@ GEM
       fog-core
       fog-json
       fog-xml
-    fog-sakuracloud (1.3.3)
+    fog-sakuracloud (1.4.0)
       fog-core
       fog-json
     fog-serverlove (0.1.2)
@@ -207,7 +206,7 @@ GEM
     gibbon (1.2.1)
       httparty
       multi_json (>= 1.9.0)
-    github_api (0.12.4)
+    github_api (0.13.0)
       addressable (~> 2.3)
       descendants_tracker (~> 0.0.4)
       faraday (~> 0.8, < 0.10)
@@ -257,7 +256,7 @@ GEM
     multi_json (1.11.2)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
-    nokogiri (1.6.6.3)
+    nokogiri (1.6.6.4)
       mini_portile (~> 0.6.0)
     oauth (0.4.7)
     oauth2 (1.0.0)
@@ -346,6 +345,3 @@ DEPENDENCIES
   rufus-scheduler (< 3.0.0)
   thin
   xeroizer
-
-BUNDLED WITH
-   1.10.6
