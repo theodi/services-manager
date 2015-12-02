@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/odi-metrics-tasks.git
-  revision: 3751efefdbecac84b3d333e3b366c61ba8973510
+  revision: 770bf0d8907d2015560ef95f62fa37f621b11fbe
   specs:
     odi-metrics-tasks (0.1.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -27,7 +27,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/open-orgn-services.git
-  revision: 5277c7d480d0f4d99e8fb30643fbd19cd6523cd2
+  revision: 3aa8092fc17cd55dd64447d9cea6650bcba1d666
   specs:
     open-orgn-services (0.1.3)
       activemodel (~> 3.2, >= 3.2.12)
@@ -132,7 +132,7 @@ GEM
       fog-json (~> 1.0)
       fog-xml (~> 0.1)
       ipaddress (~> 0.8)
-    fog-brightbox (0.9.0)
+    fog-brightbox (0.10.1)
       fog-core (~> 1.22)
       fog-json
       inflecto (~> 0.0.2)
@@ -249,15 +249,15 @@ GEM
       multi_json (~> 1.10)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
-    memoist (0.12.0)
+    memoist (0.13.0)
     mime-types (1.25.1)
-    mini_portile (0.6.2)
+    mini_portile2 (2.0.0)
     mono_logger (1.1.0)
     multi_json (1.11.2)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
-    nokogiri (1.6.6.4)
-      mini_portile (~> 0.6.0)
+    nokogiri (1.6.7)
+      mini_portile2 (~> 2.0.0.rc2)
     oauth (0.4.7)
     oauth2 (1.0.0)
       faraday (>= 0.8, < 0.10)
