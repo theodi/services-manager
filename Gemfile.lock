@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/odi-metrics-tasks.git
-  revision: 770bf0d8907d2015560ef95f62fa37f621b11fbe
+  revision: f12ec5eec6948ed145b05bed3dfd2126ef13b969
   specs:
     odi-metrics-tasks (0.1.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -67,7 +67,7 @@ GEM
     activesupport (3.2.22)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
-    addressable (2.3.8)
+    addressable (2.4.0)
     airbrake (4.3.4)
       builder
       multi_json
@@ -298,9 +298,8 @@ GEM
       rest-client (~> 1.6.7)
     rufus-scheduler (2.0.24)
       tzinfo (>= 0.3.22)
-    signet (0.6.1)
+    signet (0.7.0)
       addressable (~> 2.3)
-      extlib (~> 0.9)
       faraday (~> 0.9)
       jwt (~> 1.5)
       multi_json (~> 1.10)
@@ -315,7 +314,7 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (2.0.1)
-    tzinfo (0.3.45)
+    tzinfo (0.3.46)
     vegas (0.1.11)
       rack (>= 1.0.0)
     xeroizer (2.16.1)
@@ -345,6 +344,3 @@ DEPENDENCIES
   rufus-scheduler (< 3.0.0)
   thin
   xeroizer
-
-BUNDLED WITH
-   1.10.6
