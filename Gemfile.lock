@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/odi-metrics-tasks.git
-  revision: f12ec5eec6948ed145b05bed3dfd2126ef13b969
+  revision: 8cfd9e6f95d732051cd42a59a24c3b53e858a2c9
   specs:
     odi-metrics-tasks (0.1.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -27,7 +27,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/open-orgn-services.git
-  revision: e7cba73f231d7a48a2df0faff36dc9cc53ff63e5
+  revision: 5749e6606639d4b36a243b49f962c9a96811cb71
   specs:
     open-orgn-services (0.1.3)
       activemodel (~> 3.2, >= 3.2.12)
@@ -78,7 +78,7 @@ GEM
     builder (3.0.4)
     chargify_api_ares (1.4.1)
       activeresource (>= 3.2.16)
-    curb (0.8.8)
+    curb (0.9.0)
     daemons (1.2.3)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
@@ -172,7 +172,7 @@ GEM
       fog-core
       fog-json
       fog-xml
-    fog-sakuracloud (1.4.0)
+    fog-sakuracloud (1.5.0)
       fog-core
       fog-json
     fog-serverlove (0.1.2)
@@ -249,7 +249,7 @@ GEM
       multi_json (~> 1.10)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
-    memoist (0.13.0)
+    memoist (0.14.0)
     mime-types (1.25.1)
     mini_portile2 (2.0.0)
     mono_logger (1.1.0)
