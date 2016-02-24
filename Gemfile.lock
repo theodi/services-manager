@@ -68,7 +68,7 @@ GEM
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
     addressable (2.4.0)
-    airbrake (4.3.5)
+    airbrake (4.3.6)
       builder
       multi_json
     autoparse (0.3.3)
@@ -138,7 +138,7 @@ GEM
       fog-core (~> 1.22)
       fog-json
       inflecto (~> 0.0.2)
-    fog-core (1.35.0)
+    fog-core (1.36.0)
       builder
       excon (~> 0.45)
       formatador (~> 0.2)
@@ -180,7 +180,7 @@ GEM
     fog-serverlove (0.1.2)
       fog-core
       fog-json
-    fog-softlayer (1.0.3)
+    fog-softlayer (1.1.0)
       fog-core
       fog-json
     fog-storm_on_demand (0.1.1)
@@ -245,7 +245,7 @@ GEM
       multi_xml
     i18n (0.7.0)
     inflecto (0.0.2)
-    ipaddress (0.8.2)
+    ipaddress (0.8.3)
     json (1.8.3)
     jwt (1.5.1)
     launchy (2.4.3)
@@ -257,7 +257,7 @@ GEM
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     memoist (0.14.0)
-    mime-types (2.99)
+    mime-types (2.99.1)
     mini_portile2 (2.0.0)
     mono_logger (1.1.0)
     multi_json (1.11.2)
