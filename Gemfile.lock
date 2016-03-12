@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/odi-metrics-tasks.git
-  revision: b832b903583e9cceac3dba35bb847c5858ba3d34
+  revision: ca62f46a9cf02c76bc13cd36400230db643271d6
   specs:
     odi-metrics-tasks (0.1.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -82,7 +82,7 @@ GEM
     daemons (1.2.3)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
-    domain_name (0.5.20160128)
+    domain_name (0.5.20160309)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (0.7.0)
     eventbrite-client (0.1.4)
