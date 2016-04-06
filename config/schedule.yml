@@ -123,12 +123,12 @@ quarterly_progress:
   args:
   description: "How do I quarter?"
 
-trello_cards:
-  every:
-    - 1h
-  class: TrelloTasks
-  args:
-  description: "Gather cards from Trello boards for dashboard"
+#trello_cards:
+#  every:
+#    - 1h
+#  class: TrelloTasks
+#  args:
+#  description: "Gather cards from Trello boards for dashboard"
 
 certificate_count:
   every:
