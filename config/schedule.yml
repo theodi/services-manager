@@ -116,12 +116,12 @@ press_metrics:
   args:
   description: "Gather press metrics for dashboard"
 
-quarterly_progress:
-  every:
-    - 1d
-  class: QuarterlyProgress
-  args:
-  description: "How do I quarter?"
+#quarterly_progress:
+#  every:
+#    - 1d
+#  class: QuarterlyProgress
+#  args:
+#  description: "How do I quarter?"
 
 #trello_cards:
 #  every:
