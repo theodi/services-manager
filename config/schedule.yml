@@ -43,7 +43,7 @@ github_prs:
 eventbrite:
   every:
     - 1h
-  class: EventMonitor
+  class: OrderMonitor
   args:
   description: "Interrogate all events in Eventbrite"
 
@@ -155,4 +155,3 @@ sync_mailing_list:
   class: SyncMailingList
   args:
   description: "Sync mailing list subscribers from Capsule"
-
