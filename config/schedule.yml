@@ -40,12 +40,12 @@ github_prs:
   args:
   description: "Pulls pull request counts from Github"
 
-eventbrite:
-  every:
-    - 1h
-  class: OrderMonitor
-  args:
-  description: "Interrogate all events in Eventbrite"
+#eventbrite:
+#  every:
+#    - 1h
+#  class: OrderMonitor
+#  args:
+#  description: "Interrogate all events in Eventbrite"
 
 capsulesync:
   every:
