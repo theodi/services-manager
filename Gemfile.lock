@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/odi-metrics-tasks.git
-  revision: 4cc1c886ef9e66d14d07e6b6aa96d99591ee0fc7
+  revision: e30b70dd1bbdcb6f7cb4158536c5956d5e274e6d
   specs:
     odi-metrics-tasks (0.1.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -27,7 +27,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/open-orgn-services.git
-  revision: c2112e6ea91a9bb809c1944c7b4eb1e41ed2e401
+  revision: 0224e3fff3f796402b8e98d5c5902d1bd14585b2
   specs:
     open-orgn-services (0.1.3)
       activemodel (~> 3.2, >= 3.2.12)
@@ -69,7 +69,7 @@ GEM
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
     addressable (2.4.0)
-    airbrake (4.3.6)
+    airbrake (4.3.7)
       builder
       multi_json
     autoparse (0.3.3)
