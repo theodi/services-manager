@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/odi-metrics-tasks.git
-  revision: 61853c1b3c8516d3978a01b094de51201534f0b7
+  revision: 55de2531e85d6265b87226d56546611c6a13da5c
   specs:
     odi-metrics-tasks (0.1.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -137,7 +137,7 @@ GEM
       fog-json (~> 1.0)
       fog-xml (~> 0.1)
       ipaddress (~> 0.8)
-    fog-brightbox (0.10.1)
+    fog-brightbox (0.11.0)
       fog-core (~> 1.22)
       fog-json
       inflecto (~> 0.0.2)
@@ -146,7 +146,7 @@ GEM
       fog-json (~> 1.0)
       fog-xml (~> 0.1)
       ipaddress (~> 0.8)
-    fog-core (1.40.1)
+    fog-core (1.42.0)
       builder
       excon (~> 0.49)
       formatador (~> 0.2)
@@ -228,12 +228,12 @@ GEM
     gibbon (1.2.1)
       httparty
       multi_json (>= 1.9.0)
-    github_api (0.14.2)
+    github_api (0.14.3)
       addressable (~> 2.4.0)
       descendants_tracker (~> 0.0.4)
       faraday (~> 0.8, < 0.10)
       hashie (>= 3.4)
-      oauth2
+      oauth2 (~> 1.0.0)
     google-api-client (0.8.6)
       activesupport (>= 3.2)
       addressable (~> 2.3)
@@ -263,7 +263,7 @@ GEM
     inflecto (0.0.2)
     ipaddress (0.8.3)
     json (1.8.3)
-    jwt (1.5.1)
+    jwt (1.5.4)
     launchy (2.4.3)
       addressable (~> 2.3)
     little-plugger (1.1.4)
@@ -284,12 +284,12 @@ GEM
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
     oauth (0.4.7)
-    oauth2 (1.1.0)
+    oauth2 (1.0.0)
       faraday (>= 0.8, < 0.10)
-      jwt (~> 1.0, < 1.5.2)
+      jwt (~> 1.0)
       multi_json (~> 1.3)
       multi_xml (~> 0.5)
-      rack (>= 1.2, < 3)
+      rack (~> 1.2)
     os (0.9.6)
     pkg-config (1.1.7)
     pony (1.11)
