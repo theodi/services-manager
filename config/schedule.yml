@@ -130,13 +130,6 @@ press_metrics:
 #  args:
 #  description: "Gather cards from Trello boards for dashboard"
 
-certificate_count:
-  every:
-    - 1d
-  class: CertificateCount
-  args:
-  description: "Certificated Datasets into the Metrics API"
-
 diversity_metrics:
   every:
     - 1d
