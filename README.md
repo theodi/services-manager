@@ -4,7 +4,7 @@
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://theodi.mit-license.org)
 [![Badges](http://img.shields.io/:badges-5/5-ff6799.svg)](https://github.com/pikesley/badger)
 
-# Services Manager
+# Services Manager 
 
 This repository is a runner for the code in [open-orgn-services](https://github.com/theodi/open-orgn-services) and [odi-metrics-tasks](https://github.com/theodi/odi-metrics-tasks)
 
