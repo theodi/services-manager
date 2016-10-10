@@ -68,11 +68,11 @@ opportunity_monitor:
   args:
   description: "Calculate metrics for age of opportunities"
 
-opportunity_reminders:
-  cron: 0 0 * * 0
-  class: SendOpportunityReminders
-  args:
-  description: "Send emails to remind about old opportunities"
+#opportunity_reminders:
+#  cron: 0 0 * * 0
+#  class: SendOpportunityReminders
+#  args:
+#  description: "Send emails to remind about old opportunities"
 
 membership_renewals:
   every:
