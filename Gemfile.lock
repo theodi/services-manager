@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/odi-metrics-tasks.git
-  revision: daf6594ebc3797d7a968d4aca9db525ba5da053e
+  revision: 7680fd7f425ca15806d59316fc530e1613398a36
   specs:
     odi-metrics-tasks (0.1.0)
       activemodel (~> 3.2, >= 3.2.12)
@@ -27,7 +27,7 @@ GIT
 
 GIT
   remote: git://github.com/theodi/open-orgn-services.git
-  revision: c1faf2679c3eecd711b263c3fc262573a201d520
+  revision: a3e73c2c4480265a92f95f0b6c46aeadc97a8825
   specs:
     open-orgn-services (0.1.3)
       activemodel (~> 3.2, >= 3.2.12)
@@ -48,7 +48,7 @@ GIT
 
 GIT
   remote: git://github.com/xmacinka/capsulecrm.git
-  revision: c098caa30db0dc4b2a03fe7139b73e8a314ae962
+  revision: 995fe10ad2d537ad10c5780db83ac0fea5d5f96d
   specs:
     capsulecrm (0.0.4)
       activemodel (>= 3.0.5)
@@ -58,14 +58,14 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    CFPropertyList (2.3.2)
-    activemodel (3.2.22.2)
-      activesupport (= 3.2.22.2)
+    CFPropertyList (2.3.4)
+    activemodel (3.2.22.5)
+      activesupport (= 3.2.22.5)
       builder (~> 3.0.0)
-    activeresource (3.2.22.2)
-      activemodel (= 3.2.22.2)
-      activesupport (= 3.2.22.2)
-    activesupport (3.2.22.2)
+    activeresource (3.2.22.5)
+      activemodel (= 3.2.22.5)
+      activesupport (= 3.2.22.5)
+    activesupport (3.2.22.5)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
     addressable (2.4.0)
@@ -77,22 +77,22 @@ GEM
       extlib (>= 0.9.15)
       multi_json (>= 1.0.0)
     builder (3.0.4)
-    chargify_api_ares (1.4.4)
+    chargify_api_ares (1.4.7)
       activeresource (>= 3.2.16)
     curb (0.9.3)
-    daemons (1.2.3)
+    daemons (1.2.4)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
-    domain_name (0.5.20160615)
+    domain_name (0.5.20161129)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (0.7.0)
-    eventmachine (1.2.0.1)
-    excon (0.51.0)
+    eventmachine (1.2.1)
+    excon (0.54.0)
     extlib (0.9.16)
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
-    faraday_middleware (0.10.0)
-      faraday (>= 0.7.4, < 0.10)
+    faraday_middleware (0.10.1)
+      faraday (>= 0.7.4, < 1.0)
     fission (0.5.0)
       CFPropertyList (~> 2.2)
     fog (1.38.0)
@@ -132,7 +132,7 @@ GEM
     fog-atmos (0.1.0)
       fog-core
       fog-xml
-    fog-aws (0.9.4)
+    fog-aws (0.13.0)
       fog-core (~> 1.38)
       fog-json (~> 1.0)
       fog-xml (~> 0.1)
@@ -146,7 +146,7 @@ GEM
       fog-json (~> 1.0)
       fog-xml (~> 0.1)
       ipaddress (~> 0.8)
-    fog-core (1.42.0)
+    fog-core (1.43.0)
       builder
       excon (~> 0.49)
       formatador (~> 0.2)
@@ -164,9 +164,9 @@ GEM
     fog-json (1.0.2)
       fog-core (~> 1.0)
       multi_json (~> 1.10)
-    fog-local (0.3.0)
+    fog-local (0.3.1)
       fog-core (~> 1.27)
-    fog-openstack (0.1.7)
+    fog-openstack (0.1.18)
       fog-core (>= 1.40)
       fog-json (>= 1.0)
       ipaddress (>= 0.8)
@@ -174,11 +174,10 @@ GEM
       fog-core (~> 1.27)
       fog-json (~> 1.0)
       fog-xml (~> 0.1)
-    fog-profitbricks (0.0.5)
-      fog-core
-      fog-xml
-      nokogiri
-    fog-rackspace (0.1.1)
+    fog-profitbricks (3.0.0)
+      fog-core (~> 1.42)
+      fog-json (~> 1.0)
+    fog-rackspace (0.1.2)
       fog-core (>= 1.35)
       fog-json (>= 1.0)
       fog-xml (>= 0.1)
@@ -197,7 +196,7 @@ GEM
     fog-serverlove (0.1.2)
       fog-core
       fog-json
-    fog-softlayer (1.1.2)
+    fog-softlayer (1.1.4)
       fog-core
       fog-json
     fog-storm_on_demand (0.1.1)
@@ -212,9 +211,9 @@ GEM
     fog-voxel (0.1.0)
       fog-core
       fog-xml
-    fog-vsphere (0.8.0)
+    fog-vsphere (1.2.1)
       fog-core
-      rbvmomi (~> 1.8)
+      rbvmomi (~> 1.8.0)
     fog-xenserver (0.2.3)
       fog-core
       fog-xml
@@ -228,14 +227,14 @@ GEM
     gibbon (1.2.1)
       httparty
       multi_json (>= 1.9.0)
-    github_api (0.14.3)
+    github_api (0.14.5)
       addressable (~> 2.4.0)
       descendants_tracker (~> 0.0.4)
       faraday (~> 0.8, < 0.10)
       hashie (>= 3.4)
-      oauth2 (~> 1.0.0)
-    google-api-client (0.8.6)
-      activesupport (>= 3.2)
+      oauth2 (~> 1.0)
+    google-api-client (0.8.7)
+      activesupport (>= 3.2, < 5.0)
       addressable (~> 2.3)
       autoparse (~> 0.3)
       extlib (~> 0.9)
@@ -253,17 +252,16 @@ GEM
       multi_json (~> 1.11)
       os (~> 0.9)
       signet (~> 0.7)
-    hashie (3.4.4)
-    http-cookie (1.0.2)
+    hashie (3.4.6)
+    http-cookie (1.0.3)
       domain_name (~> 0.5)
-    httparty (0.13.7)
-      json (~> 1.8)
+    httparty (0.14.0)
       multi_xml (>= 0.5.2)
     i18n (0.7.0)
     inflecto (0.0.2)
     ipaddress (0.8.3)
-    json (1.8.3)
-    jwt (1.5.4)
+    json (2.0.2)
+    jwt (1.5.6)
     launchy (2.4.3)
       addressable (~> 2.3)
     little-plugger (1.1.4)
@@ -272,29 +270,28 @@ GEM
       multi_json (~> 1.10)
     mail (2.6.4)
       mime-types (>= 1.16, < 4)
-    memoist (0.14.0)
-    mime-types (2.99.2)
+    memoist (0.15.0)
+    mime-types (2.99.3)
     mini_portile2 (2.1.0)
     mono_logger (1.1.0)
     multi_json (1.12.1)
-    multi_xml (0.5.5)
+    multi_xml (0.6.0)
     multipart-post (2.0.0)
     netrc (0.11.0)
-    nokogiri (1.6.8)
+    nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
-      pkg-config (~> 1.1.7)
     oauth (0.4.7)
-    oauth2 (1.0.0)
+    oauth2 (1.2.0)
       faraday (>= 0.8, < 0.10)
       jwt (~> 1.0)
       multi_json (~> 1.3)
       multi_xml (~> 0.5)
-      rack (~> 1.2)
+      rack (>= 1.2, < 3)
     os (0.9.6)
-    pkg-config (1.1.7)
     pony (1.11)
       mail (>= 2.0)
-    rack (1.6.4)
+    public_suffix (2.0.4)
+    rack (1.6.5)
     rack-protection (1.5.3)
       rack
     rake (10.5.0)
@@ -344,7 +341,7 @@ GEM
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0, >= 1.0.4)
       rack (>= 1, < 3)
-    thor (0.19.1)
+    thor (0.19.4)
     thread_safe (0.3.5)
     tilt (2.0.5)
     trollop (2.1.2)
@@ -355,7 +352,7 @@ GEM
     unf_ext (0.0.7.2)
     vegas (0.1.11)
       rack (>= 1.0.0)
-    xeroizer (2.16.4)
+    xeroizer (2.16.5)
       activesupport
       builder (>= 2.1.2)
       i18n
