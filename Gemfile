@@ -21,6 +21,6 @@ gem 'resque-history'
 gem 'thin'
 gem 'foreman', '< 0.65'
 
-gem 'airbrake', '~> 4.0'
+gem 'airbrake', '~> 6.3'
 gem 'fog'
 gem 'github_api'
