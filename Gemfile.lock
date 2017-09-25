@@ -48,7 +48,7 @@ GIT
 
 GIT
   remote: git://github.com/xmacinka/capsulecrm.git
-  revision: c098caa30db0dc4b2a03fe7139b73e8a314ae962
+  revision: c04eceb5f1e580ce5b4a073aa96886a774116ca9
   specs:
     capsulecrm (0.0.4)
       activemodel (>= 3.0.5)
@@ -257,13 +257,12 @@ GEM
     hashie (3.5.5)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
-    httparty (0.13.7)
-      json (~> 1.8)
+    httparty (0.15.6)
       multi_xml (>= 0.5.2)
-    i18n (0.7.0)
+    i18n (0.8.6)
     inflecto (0.0.2)
     ipaddress (0.8.3)
-    json (1.8.3)
+    json (2.1.0)
     jwt (1.5.6)
     launchy (2.4.3)
       addressable (~> 2.3)
@@ -277,7 +276,7 @@ GEM
     mime-types (2.99.2)
     mini_portile2 (2.1.0)
     mono_logger (1.1.0)
-    multi_json (1.12.1)
+    multi_json (1.12.2)
     multi_xml (0.6.0)
     multipart-post (2.0.0)
     netrc (0.11.0)
