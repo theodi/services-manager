@@ -229,11 +229,11 @@ GEM
     gibbon (1.2.1)
       httparty
       multi_json (>= 1.9.0)
-    github_api (0.18.1)
+    github_api (0.18.2)
       addressable (~> 2.4)
       descendants_tracker (~> 0.0.4)
       faraday (~> 0.8)
-      hashie (>= 3.4)
+      hashie (~> 3.5, >= 3.5.2)
       oauth2 (~> 1.0)
     google-api-client (0.8.6)
       activesupport (>= 3.2)
@@ -295,7 +295,7 @@ GEM
     pkg-config (1.1.7)
     pony (1.11)
       mail (>= 2.0)
-    public_suffix (3.0.0)
+    public_suffix (3.0.1)
     rack (1.6.8)
     rack-protection (1.5.3)
       rack
