@@ -19,7 +19,7 @@ gem 'rufus-scheduler', '< 3.0.0'
 gem 'resque-scheduler', '~> 2.5', :require => 'resque_scheduler'
 gem 'resque-history'
 gem 'thin'
-gem 'foreman', '< 0.65'
+gem 'foreman', '< 0.85'
 
 gem 'airbrake', '~> 4.0'
 gem 'fog'
