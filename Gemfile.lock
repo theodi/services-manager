@@ -70,9 +70,9 @@ GEM
       multi_json (~> 1.0)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    airbrake (4.3.8)
-      builder
-      multi_json
+    airbrake (7.2.0)
+      airbrake-ruby (~> 2.5)
+    airbrake-ruby (2.7.1)
     autoparse (0.3.3)
       addressable (>= 2.3.1)
       extlib (>= 0.9.15)
@@ -277,7 +277,7 @@ GEM
     mime-types (2.99.3)
     mini_portile2 (2.1.0)
     mono_logger (1.1.0)
-    multi_json (1.12.2)
+    multi_json (1.13.1)
     multi_xml (0.6.0)
     multipart-post (2.0.0)
     netrc (0.11.0)
@@ -370,7 +370,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  airbrake (~> 4.0)
+  airbrake (~> 7.2)
   capsulecrm!
   dotenv
   fog
