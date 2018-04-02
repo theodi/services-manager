@@ -296,8 +296,8 @@ GEM
     pony (1.11)
       mail (>= 2.0)
     public_suffix (3.0.0)
-    rack (1.6.8)
-    rack-protection (1.5.3)
+    rack (1.6.9)
+    rack-protection (1.5.5)
       rack
     rake (10.5.0)
     rbvmomi (1.8.2)
